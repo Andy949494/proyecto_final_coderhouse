@@ -7,9 +7,7 @@ administrador:
 usuario: admin@mail.com
 
 contraseña: admin
-
-
-
+__________________
 user:
 
 usuario: user@mail.com
