@@ -1,5 +1,5 @@
 # proyecto_final_coderhouse
-Deploy: Deploy: https://proyectofinalcoderhouse-production-1caa.up.railway.app/
+Deploy: https://proyectofinalcoderhouse-production-1caa.up.railway.app/
 __________________
 cuentas:
 
