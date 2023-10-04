@@ -18,7 +18,7 @@ export default class UsersRouter extends Routers{
 
         this.get('/',["PUBLIC"], getAllUsers);
 
-        this.post('/register',["PUBLIC"], passport.authenticate('register', {successRedirect: '/api/users/login', failureRedirect: '/', failureFlash: true}))
+        this.post('/register',["PUBLIC"], passport.authenticate('register', {successRedirect: 'https://proyectofinalcoderhouse-production-1caa.up.railway.app/api/users/login', failureRedirect: 'https://proyectofinalcoderhouse-production-1caa.up.railway.app/', failureFlash: true}))
 
         this.get('/login', ["PUBLIC"], renderLogin);
 
