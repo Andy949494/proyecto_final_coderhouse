@@ -3,7 +3,7 @@ import { Strategy as LocalStrategy } from 'passport-local';
 import GitHubStrategy from 'passport-github2';
 import { createHash, isValidPassword } from '../utils.js';
 import userModel from '../dao/models/users.model.js';
-import { addNewCart } from '../controllers/carts.controller.js';
+import { addNewCartToUser } from '../controllers/carts.controller.js';
 
 const initializePassport = () => {
   passport.use('register', new LocalStrategy(
