@@ -310,6 +310,7 @@ const purchase = async (req, res) => {
 
 export{
     addNewCart,
+    addNewCartToUser,
     getCarts,
     getCartById,
     addProductToCart,
